@@ -9,9 +9,9 @@
     "test": "jest",
     "lint": "eslint .",
     "build:android": "detox build --configuration android",
-    "test:android": "detox test --configuration android",
+    "test:android": "detox test --artifacts-location ./e2e/artifacts --take-screenshots failing --configuration android",
     "build:ios": "detox build --configuration ios",
-    "test:ios": "detox test --configuration ios"
+    "test:ios": "detox test --artifacts-location ./e2e/artifacts --take-screenshots failing --configuration ios"
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.1",
