@@ -1,6 +1,6 @@
 ## :computer: O Projeto
 
-Task APP - APP feito exclusivamente para exibir o funcionamento do framework **Detox**
+demoDetoxRN - APP feito exclusivamente para exibir o funcionamento do framework **Detox**
 em projetos em React Native
 
 ## :pushpin: Tecnologias
